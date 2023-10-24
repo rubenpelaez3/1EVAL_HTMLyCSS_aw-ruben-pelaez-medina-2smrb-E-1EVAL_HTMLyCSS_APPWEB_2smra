@@ -1,4 +1,20 @@
-h1 {
+@font-face {
+    font-family: "mystery quest";
+    src: url("../estilos/fuentesweb/consolas.woff");
+}
+@font-face {
+    font-family:mystery quest ;
+    src: url("../estilos/fuentesweb/consolas.woff");
+}
+#especial{
+    font-family: "mysteryquest" ,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+}
+*{
+    background-color: aqua;
+}
+
+h1.mark{
     color: blue;
     background-color: yellow;
 }
@@ -7,9 +23,11 @@ h1 {
     color :black;
     background-color:yellow;
 }
-div{
-    font-weight: bold;
+body{
+    background-color: aqua;
 }
+
+
 
 
 
